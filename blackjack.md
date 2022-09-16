@@ -1,4 +1,4 @@
-# HOW TO CODE BLACKJACK
+# HOW TO CODE BLACKJACK(블랙잭 코드 이렇게 하세요. 모르시면 구글링)
 
 import os
 import random
@@ -17,7 +17,7 @@ def deal(deck):
 	    hand.append(card)
     return hand
 
-def play_again():
+def play_again(): #2022-09-16,YSJ 리겜이요. 
     again = input("Do you want to play again? (Y/N) : ").lower()
     if again == "y":
 	    dealer_hand = []
